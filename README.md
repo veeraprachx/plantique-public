@@ -17,7 +17,6 @@ This codebase is a proof‑of‑concept for a university senior project.
 4. [Project Architecture](#project-architecture)
 5. [Deployment & Hosting](#deployment--hosting)
 6. [Project Structure](#project-structure)
-7. [Getting Started](#getting-started)
 
 ## Project Highlights
 
@@ -121,30 +120,3 @@ PLANTIQUE-PUBLIC
 ├── README.md
 └── update‑production.sh
 ```
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Docker & Docker Compose
-
-1. Clone the repo
-
-   ```bash
-   git clone https://github.com/veeraprachx/plantique-public.git
-   cd plantique‑public
-   ```
-
-2. **Populate your credentials**  
-   Search for `MONGODB_USERNAME` and `MONGODB_PASSWORD` tokens and replace them with your actual values.
-
-3. Launch the stack
-
-   ```bash
-   docker-compose up --build
-   ```
-
-4. Visit http://localhost:3000 in your browser.
-
-_Note: These steps only launch the frontend and backend locally. The full IoT sensor integration (Arduino hardware, Kubernetes on Raspberry Pi, etc.) is not included here._
