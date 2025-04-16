@@ -5,9 +5,9 @@ A full‑stack IoT prototype for automated greenhouse irrigation and real‑time
 ⚠️ **Prototype Notice**  
 This codebase is a proof‑of‑concept for a university senior project.
 
-- No authentication/authorization
-- No rate limiting or input sanitization
-- Intended as a prototype only
+- No authentication/authorization.
+- No rate limiting or input sanitization.
+- Intended as a prototype only.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ This codebase is a proof‑of‑concept for a university senior project.
 
 ## Project Highlights
 
-- Smart Farming System for Melon Cultivation (University Senior Project, Oct 2024 – May 2025)
+- Smart Farming System for Melon Cultivation (University Senior Project, Oct 2024 – May 2025).
 
 - Designed a prototype Smart Farming System that automates greenhouse operations, reducing manual labor and increasing crop yield.
 
@@ -132,13 +132,12 @@ PLANTIQUE-PUBLIC
 1. Clone the repo
 
    ```bash
-   git clone https://github.com/veeraprachx/plantique-public.git
+   git clone [repo-url]
    cd plantique‑public
    ```
 
 2. **Populate your credentials**  
-   Search for all `__PLACEHOLDER__` tokens and replace them with your actual values.  
-   _(If you skip this step, the app will still load but won’t fully run.)_
+   Search for `MONGODB_USERNAME` and `MONGODB_PASSWORD` tokens and replace them with your actual values.
 
 3. Launch the stack
 
@@ -147,3 +146,5 @@ PLANTIQUE-PUBLIC
    ```
 
 4. Visit http://localhost:3000 in your browser.
+
+_Note: These steps only launch the frontend and backend locally. The full IoT sensor integration (Arduino hardware, Kubernetes on Raspberry Pi, etc.) is not included here._
