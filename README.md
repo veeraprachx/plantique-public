@@ -147,4 +147,3 @@ PLANTIQUE-PUBLIC
    ```
 
 4. Visit http://localhost:3000 in your browser.
-# plantique-public
