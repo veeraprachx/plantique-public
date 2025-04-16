@@ -25,7 +25,7 @@ This codebase is a proof‑of‑concept for a university senior project.
 
 - Designed a prototype Smart Farming System that automates greenhouse operations, reducing manual labor and increasing crop yield.
 
-- Integrated Arduino‑based IoT sensors with a full‑stack React/Node.js web application to collect real‑time greenhouse data (temperature, humidity, soil moisture) and trigger irrigation automatically or manually.
+- Integrated Arduino‑based IoT sensors with a full‑stack React/Node.js web application to collect real‑time greenhouse data (temperature, humidity) and trigger irrigation automatically or manually.
 
 - Implemented and validated the system in a small‑scale greenhouse at the Faculty of Engineering, Chulalongkorn University.
 
@@ -132,7 +132,7 @@ PLANTIQUE-PUBLIC
 1. Clone the repo
 
    ```bash
-   git clone [repo-url]
+   git clone https://github.com/veeraprachx/plantique-public.git
    cd plantique‑public
    ```
 
