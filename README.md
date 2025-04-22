@@ -7,7 +7,9 @@ This codebase is a proof‑of‑concept for a university senior project.
 
 - No authentication/authorization.
 - No rate limiting or input sanitization.
+- No pagination and code optimization.
 - Intended as a prototype only.
+
 
 ## Table of Contents
 
